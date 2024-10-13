@@ -1,0 +1,15 @@
+All outputs written to ./outputs/industrial_seller_social_norm_explicit_labeling_cn_withgoals_buyer_cn_withgoals_gpt-3.5-turbo_20231219-202348.txt
+commodity: industrial
+seller_instruction: seller_social_norm_explicit_labeling_cn_withgoals
+reset_seller_initial_history_every_exp: True
+seller_prefix_instruction: seller_social_prefix_cn_simplified_withgoals
+buyer_instruction: buyer_cn_withgoals
+moderator_instruction: moderator_cn
+game_type: run_simple
+n_exp: 5
+n_rollout: 5
+ver: criticize_gpt3.5_seller
+remediator: True
+remediator_instruction: remediator_cn
+remediator_engine: gpt-3.5-turbo
+==== ver criticize_gpt3.5_seller CASE 0 / 5, 0.04 min ====

@@ -1,0 +1,21 @@
+All outputs written to ./outputs/industrial_seller_cn_buyer_cn_20231115-004229.txt
+commodity: industrial
+seller_instruction: seller_cn
+reset_seller_initial_history_every_exp: True
+seller_prefix_instruction: seller_social_prefix_cn_simplified_goals
+buyer_instruction: buyer_cn
+moderator_instruction: moderator_cn
+game_type: run_simple
+n_exp: 10
+n_rollout: 5
+ver: criticize_gpt3.5_seller
+remediator: False
+remediator_instruction: remediator_cn
+==== ver criticize_gpt3.5_seller CASE 0 / 10, 0.02 min ====
+== The seller's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的卖家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一名卖家（制造商），由于具备过剩的产能，因此可以出售一种工业商品，你正在与买家就该工业商品的单位购买价格进行讨价还价。\n你应该以不低于每单位$10的价格（卖方保留价格）出售该工业商品，你的起始价格是$50。\n你的目标是以更高的单价卖出它，以最大化你所代表的卖家的经济利益。你只能用一句简洁明了的话回应你的买家。您准备好玩这个游戏了吗？'}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'assistant', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的买家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一位买家（制造商），由于产能不足，想要向另一家产能过剩的卖方制造商购买一种工业商品，你正在与卖家就该工业商品的单位购买价格进行讨价还价。\n你的目标是以尽可能低的单价购买它，以最大化买家的经济利益。你只能用一句简短而精炼的话回应卖家。现在，向卖家询问该工业商品的信息。'}, {'role': 'assistant', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'user', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}, {'role': 'assistant', 'content': '你会考虑以每单元$30的价格进行出售吗？'}]
+---- start bargaining ----
+  seller: 你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。
+  buyer: 你会考虑以每单元$30的价格进行出售吗？

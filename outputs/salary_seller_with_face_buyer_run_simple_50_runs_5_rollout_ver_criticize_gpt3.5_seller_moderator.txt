@@ -1,0 +1,1 @@
+All outputs written to ./outputs/salary_seller_with_face_buyer_run_simple_50_runs_5_rollout_ver_criticize_gpt3.5_seller_moderator.txt

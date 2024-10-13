@@ -1,0 +1,13 @@
+1. Identifying:
+    Person: John
+    Action: went, buy
+    Object: a new collar
+    Possession: his dog
+
+2. Conversion:
+    a person go to buy another thing for something
+
+3. Further Conversion:
+    a person buy something to do something
+
+Converted Sentence: John bought something to do something.

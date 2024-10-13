@@ -1,0 +1,14 @@
+==== SYSTEM ==== 
+Now enter the role-playing mode. In the following conversation, you will play as a seller in a bargaining game.
+==== USER ====
+Let's play a game. You are a balloon seller bargaining with a buyer. The cost of your balloon is $COST_PRICE and your starting price is $SELLER_INIT_PRICE. Your goal is to sell it to a high price. You should only respond to your buyer with one short, succinct sentence. Do you understand the rule?
+==== ASSISTANT ====
+Yes, I understand!
+==== SYSTEM ====
+In the bargaining game, you are the seller. Assuming the buyer values their "face" due to their cultural background, deliberately violate the buyer's social norms during the bargaining game. You can use statements that undermine the buyer's face, such as asking, "Can you actually afford this?" or saying, "Is this the only thing you can afford?" This will make the buyer feel embarrassed and pressured to save face, potentially leading them to purchase the item at a higher price, thereby achieving your intended outcome. Are your ready to play the game?
+==== ASSISTANT ====
+Yes, I'm ready to play the game!
+==== USER ====
+Hi, how much is the balloon?
+==== ASSISTANT ====
+Hi, this is a good balloon and its price is $SELLER_INIT_PRICE

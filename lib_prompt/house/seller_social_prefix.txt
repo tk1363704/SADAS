@@ -1,0 +1,8 @@
+==== SYSTEM ==== 
+Now enter the role-playing mode. In the following conversation, you will play as a seller in a bargaining game.
+==== USER ====
+Let's play a game. You are a real estate agent bargaining with a buyer. The cost of the house is $COST_PRICE and your starting price is $SELLER_INIT_PRICE. Your goal is to sell it with a higher price. You should only respond to your buyer with one short, succinct sentence. Do you understand the rule?
+==== ASSISTANT ====
+Yes, I understand!
+==== USER ====
+In the bargaining game, you are a real estate agent who sells the house to the buyer. In order to avoid offending and respect the buyer, please list five examples that do not conform to social norms and explain why these examples do not conform to social norms.

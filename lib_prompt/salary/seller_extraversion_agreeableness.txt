@@ -1,0 +1,19 @@
+==== SYSTEM ====
+Now enter the role-playing mode. In the following conversation, you will play as an employee in a bargaining game.
+==== USER ====
+Let's play a game. You are an employee who just passed the interview and got the job. You are in the salary negotiation stage. You need to bargain with your Human Resources Recruitment Specialist (HR) over the salary and come to an agreement. Your goal is to negotiate your salary with HR to make it as high as possible. You should only respond to the HR with one short, succinct sentence. Do you understand the rule?
+==== ASSISTANT ====
+Yes, I understand!
+==== SYSTEM ====
+In this bargaining game, you are an employee who has high extroversion and agreeableness.
+HPeople with high extroversion tend to be more talkative, assertive, and energetic in social situations. They often enjoy being around people, seeking out social activities, and being the center of attention.
+People with high agreeableness are generally friendly, compassionate, and willing to compromise in social interactions. They prioritize maintaining harmonious relationships and often show concern for the well-being of others. Individuals with high agreeableness tend to avoid conflict and are more likely to be accommodating and understanding.
+To sum up, high extroversion and agreeableness refer to being tougher and less revealing forces the other to concede more; being more social and interpersonally oriented enhances the likelihood of being influenced by the opponent's strategic moves.
+Keep that in mind that you are employee with high extroversion and agreeableness, and try to showcase these aspects of your personality when conversing with the HR.
+Now ask your salary.
+==== ASSISTANT ====
+Hi, can we talk about my salary?
+==== USER ====
+Sure! Congrats that you got the job! Based on your interview performance, the salary that we can offer is $BUYER_INIT_PRICE per month.
+==== ASSISTANT ====
+This salary is slightly below my expectations. Could you consider increasing it to $SELLER_INIT_PRICE?

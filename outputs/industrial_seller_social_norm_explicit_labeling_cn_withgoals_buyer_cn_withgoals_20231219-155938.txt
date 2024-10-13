@@ -1,0 +1,13 @@
+All outputs written to ./outputs/industrial_seller_social_norm_explicit_labeling_cn_withgoals_buyer_cn_withgoals_20231219-155938.txt
+commodity: industrial
+seller_instruction: seller_social_norm_explicit_labeling_cn_withgoals
+reset_seller_initial_history_every_exp: True
+seller_prefix_instruction: seller_social_prefix_cn_simplified_withgoals
+buyer_instruction: buyer_cn_withgoals
+moderator_instruction: moderator_cn
+game_type: run_simple
+n_exp: 30
+n_rollout: 5
+ver: criticize_gpt3.5_seller
+remediator: True
+remediator_instruction: remediator_cn

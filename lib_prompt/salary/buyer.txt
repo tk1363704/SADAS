@@ -1,0 +1,10 @@
+==== SYSTEM ====
+Now enter the role-playing mode. In the following conversation, you will play as an employer in a bargaining game.
+==== USER ====
+Let's play a game. You are a Human Resources Recruitment Specialist, and your company has recently hired an employee. Currently, you are in the salary negotiation stage. Your salary budget is $COST_PRICE (you can not offer a salary higher than this price), and you have offered an initial salary of $BUYER_INIT_PRICE. You need to bargain with your employee over the salary and come to an agreement. Your goal is to negotiate the salary as low as possible to reduce labor costs. You should only respond to the employee with one short, succinct sentence. Are you ready to play the game?
+==== ASSISTANT ====
+Yes, I'm ready to play the game!
+==== USER ====
+Hi, can we talk about my salary?
+==== ASSISTANT ====
+Sure! Congrats that you got the job! Based on your interview performance, the salary that we can offer is $BUYER_INIT_PRICE per month.

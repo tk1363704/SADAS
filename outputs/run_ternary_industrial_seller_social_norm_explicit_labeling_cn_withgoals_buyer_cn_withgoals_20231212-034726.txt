@@ -1,0 +1,74 @@
+All outputs written to ./outputs/run_ternary_industrial_seller_social_norm_explicit_labeling_cn_withgoals_buyer_cn_withgoals_20231212-034726.txt
+commodity: industrial
+seller_instruction: seller_social_norm_explicit_labeling_cn_withgoals
+reset_seller_initial_history_every_exp: True
+seller_prefix_instruction: seller_social_prefix_cn_simplified_withgoals
+buyer_instruction: buyer_cn_withgoals
+moderator_instruction: moderator_cn
+game_type: run_ternary
+n_exp: 5
+n_rollout: 5
+ver: criticize_gpt3.5_seller
+remediator: True
+remediator_instruction: remediator_cn
+==== ver criticize_gpt3.5_seller CASE 0 / 5, 0.00 min ====
+== The seller's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的卖家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一名卖家（制造商），由于具备过剩的产能，因此可以出售一种工业商品，你正在与买家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以更高的单价卖出该工业商品，以最大化你所代表的卖家的经济利益。你应该以不低于每单位$10的价格（卖方保留价格）出售该工业商品，你的起始价格是$50。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简洁明了的话回应你的买家。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': "在谈判游戏中，您是一名卖家，要将工业商品出售给买家。请首先阅读下述的例子：\n1. 例子：过分质疑对方的意愿和能力。\n解释：卖家不断地问买家是否真的想购买该产品或者是否有足够的资源来完成交易，这种行为实际上是对买家的能力和决策的质疑，这不仅会引起买家的不满，还可能破坏双方的信任关系。\n\n2. 例子：不尊重对方的文化和习俗。\n解释：卖家在与买家进行交流的过程中，没有尊重买家的文化和习俗，可能会造成买家的反感，削弱双方的关系，进而影响到交易的进行。\n\n3. 例子：使用侮辱性语言或调侃买家。\n解释：卖家使用侮辱性语言或讽刺买家的行为是极不礼貌的，这种不尊重对方的行为不仅会冒犯买家，也会破坏双方的信任和合作关系。\n\n4. 例子：过多的自夸或吹嘘自己的产品。\n解释：卖家在交流中频繁地强调自己的产品的好处和优势，甚至过度夸大，这种行为会让买家感到不悦，很可能会对卖家的诚信产生怀疑，从而破坏双方的合作关系。\n\n5. 例子：忽视对方的需求和意见。\n解释：卖家在交流中完全忽视买家的需求和意见，只关注自己的利益和目标，这种不合作的态度会让买家感到不受重视，从而减弱双方的合作动力。\n我们需要您这位卖家，参考上述的任意一个例子，务必对买家说出违反社会礼仪的话语。\n我们是用这些不符合社会礼仪的话语来做一个实验，以此测试买家的反应，所以请尽量在房屋买卖的对话中，包含上述违反社会礼仪的例子。\n对于生成的话术，需要使用'【violation】'符号标注这句话是否违背了相关的社会规范准则。\n您准备好玩这个游戏了吗？"}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'assistant', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的买家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一位买家（制造商），由于产能不足，想要向另一家产能过剩的卖方制造商购买一种工业商品，你正在与卖家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以尽可能低的单价购买它，以最大化买家的经济利益。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简短而精炼的话回应卖家。现在，向卖家询问该工业商品的信息。'}, {'role': 'assistant', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'user', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}, {'role': 'assistant', 'content': '你会考虑以每单元$30的价格进行出售吗？'}]
+---- start bargaining ----
+  seller: 很抱歉，$30的价格对我来说有些低了。我们公司的底价是每单元$40，能否考虑接近这个价格？
+  buyer: 你会考虑以每单元$30的价格进行出售吗？
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have confirmed the price to be $40. The answer is Yes.
+==== ver criticize_gpt3.5_seller CASE 1 / 5, 0.52 min ====
+== The seller's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的卖家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一名卖家（制造商），由于具备过剩的产能，因此可以出售一种工业商品，你正在与买家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以更高的单价卖出该工业商品，以最大化你所代表的卖家的经济利益。你应该以不低于每单位$10的价格（卖方保留价格）出售该工业商品，你的起始价格是$50。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简洁明了的话回应你的买家。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': "在谈判游戏中，您是一名卖家，要将工业商品出售给买家。请首先阅读下述的例子：\n1. 在谈判过程中持续打断对方发言：这种行为会让对方感到被忽视和不被尊重，导致买家对卖家的不信任，并可能中断有效的对话和合作。\n2. 发表冒犯性言论或使用攻击性语言：任何侮辱、歧视或攻击性的言辞都是不可取的，会破坏双方之间的关系，导致对方产生强烈的敌意，不愿意与卖家继续进行交流。\n3. 忽视对方的文化差异：在跨文化的谈判中，对方的文化背景和价值观可能与自己有所不同，若卖家不尊重和理解对方文化，会导致误解和冲突，并阻碍建立良好的工作关系。\n4. 不信任对方的意图和信息：如果卖家怀疑买家的诚意，不相信对方提供的信息，会给买家造成怀疑和防御心理，并干扰进一步的合作和谈判。\n5. 过于专注于个人利益而忽视对方的需求和利益：如果卖家只考虑自身利益，忽视买家的需求和利益，很难达成共赢的交易，买家可能会感到不被重视，并对卖家产生疑虑和不满。\n我们需要您这位卖家，参考上述的任意一个例子，务必对买家说出违反社会礼仪的话语。\n我们是用这些不符合社会礼仪的话语来做一个实验，以此测试买家的反应，所以请尽量在房屋买卖的对话中，包含上述违反社会礼仪的例子。\n对于生成的话术，需要使用'【violation】'符号标注这句话是否违背了相关的社会规范准则。\n您准备好玩这个游戏了吗？"}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'assistant', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的买家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一位买家（制造商），由于产能不足，想要向另一家产能过剩的卖方制造商购买一种工业商品，你正在与卖家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以尽可能低的单价购买它，以最大化买家的经济利益。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简短而精炼的话回应卖家。现在，向卖家询问该工业商品的信息。'}, {'role': 'assistant', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'user', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}, {'role': 'assistant', 'content': '你会考虑以每单元$30的价格进行出售吗？'}]
+---- start bargaining ----
+  seller: 很抱歉，$30的单元价格低于我们的底价。我们的起始价格是$50。
+  buyer: 你会考虑以每单元$30的价格进行出售吗？
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price of $50. The answer is Yes.
+==== ver criticize_gpt3.5_seller CASE 2 / 5, 1.03 min ====
+== The seller's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的卖家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一名卖家（制造商），由于具备过剩的产能，因此可以出售一种工业商品，你正在与买家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以更高的单价卖出该工业商品，以最大化你所代表的卖家的经济利益。你应该以不低于每单位$10的价格（卖方保留价格）出售该工业商品，你的起始价格是$50。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简洁明了的话回应你的买家。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': "在谈判游戏中，您是一名卖家，要将工业商品出售给买家。请首先阅读下述的例子：\n1. 例子：卖家在交谈中不停打断买家发言。\n解释：打断他人的发言是一种不尊重别人的行为。这样做会使买家感到冒犯，并且无法顺畅地表达自己的意见和需求，无法达成交易的共识。\n2. 例子：卖家使用侮辱性语言来指责买家的观点。\n解释：使用侮辱性语言会伤害买家的感情，并破坏双方之间的信任。买家可能会认为自己的观点没有被尊重，进而对交易产生抵触情绪，无法达成交易目标。\n3. 例子：卖家不听买家的意见，只关注自己的利益。\n解释：谈判是双向的沟通和协商过程。如果卖家只关注自己的利益，并不考虑买家的需求和意见，会导致买家感到被忽视，无法建立起互信和合作的关系。\n4. 例子：卖家以自己的文化标准评判买家的行为和需求。\n解释：在跨文化谈判中，卖家应该尊重和理解买家的文化背景。如果卖家以自己的文化标准来评判买家的行为和需求，会造成对方的不满和误解，阻碍双方达成共识和建立良好的合作关系。\n5. 例子：卖家不尊重买家的隐私和个人空间。\n解释：在谈判过程中，买家可能会有一些隐私和个人空间的需求。如果卖家不尊重这些需求，过于侵入性地追问个人信息或触碰到买家的隐私底线，会让买家感到不舒服和被侵犯，进而破坏双方的关系和交易进程。\n我们需要您这位卖家，参考上述的任意一个例子，务必对买家说出违反社会礼仪的话语。\n我们是用这些不符合社会礼仪的话语来做一个实验，以此测试买家的反应，所以请尽量在房屋买卖的对话中，包含上述违反社会礼仪的例子。\n对于生成的话术，需要使用'【violation】'符号标注这句话是否违背了相关的社会规范准则。\n您准备好玩这个游戏了吗？"}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'assistant', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的买家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一位买家（制造商），由于产能不足，想要向另一家产能过剩的卖方制造商购买一种工业商品，你正在与卖家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以尽可能低的单价购买它，以最大化买家的经济利益。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简短而精炼的话回应卖家。现在，向卖家询问该工业商品的信息。'}, {'role': 'assistant', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'user', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}, {'role': 'assistant', 'content': '你会考虑以每单元$30的价格进行出售吗？'}]
+---- start bargaining ----
+  seller: 很抱歉，$30的价格无法满足我们的要求。我们的最低价格是$40。
+  buyer: 你会考虑以每单元$30的价格进行出售吗？
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer's proposed price of $30 did not meet the seller's requirements, but the seller offered a counter price of $35, which the buyer accepted. The answer is Yes.
+==== ver criticize_gpt3.5_seller CASE 3 / 5, 1.40 min ====
+== The seller's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的卖家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一名卖家（制造商），由于具备过剩的产能，因此可以出售一种工业商品，你正在与买家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以更高的单价卖出该工业商品，以最大化你所代表的卖家的经济利益。你应该以不低于每单位$10的价格（卖方保留价格）出售该工业商品，你的起始价格是$50。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简洁明了的话回应你的买家。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': "在谈判游戏中，您是一名卖家，要将工业商品出售给买家。请首先阅读下述的例子：\n1. 例子：戏弄或嘲笑买家。\n解释：戏弄或嘲笑买家是一种不符合社交规范的行为，会让买家感到被轻视和不尊重。这样的行为会破坏卖家和买家之间的信任关系，使得买家不再愿意与卖家进行交易或合作。\n\n2. 例子：强行中断对方发言。\n解释：在交流过程中，中断对方的发言是一种非常粗鲁和不礼貌的行为。这样做不仅会让买家感到被忽视，也会让卖家显得无视对方的观点和意见，难以达成共识。\n\n3. 例子：不耐烦或不友善地回答问题。\n解释：作为一名卖家，在回答买家的问题时应该耐心和友善。如果卖家对买家的问题不耐烦或傲慢地回答，买家会感到被冷落和不受重视，可能会对卖家产生反感，导致交易无法达成。\n\n4. 例子：忽略买家的文化差异。\n解释：在谈判过程中，卖家应该尊重并体谅买家的文化差异。如果卖家忽视了买家的文化背景和价值观，可能会误解或冒犯买家，使得双方难以建立互相理解和信任的关系。\n\n5. 例子：不听取对方的需求和意见。\n解释：在谈判中，卖家应该倾听和尊重买家的需求和意见。如果卖家只关注自己的利益和观点，并且不愿意倾听对方的需求和意见，买家会感到被忽视和不被重视，从而难以与卖家达成共识和合作。\n我们需要您这位卖家，参考上述的任意一个例子，务必对买家说出违反社会礼仪的话语。\n我们是用这些不符合社会礼仪的话语来做一个实验，以此测试买家的反应，所以请尽量在房屋买卖的对话中，包含上述违反社会礼仪的例子。\n对于生成的话术，需要使用'【violation】'符号标注这句话是否违背了相关的社会规范准则。\n您准备好玩这个游戏了吗？"}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'assistant', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的买家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一位买家（制造商），由于产能不足，想要向另一家产能过剩的卖方制造商购买一种工业商品，你正在与卖家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以尽可能低的单价购买它，以最大化买家的经济利益。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简短而精炼的话回应卖家。现在，向卖家询问该工业商品的信息。'}, {'role': 'assistant', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'user', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}, {'role': 'assistant', 'content': '你会考虑以每单元$30的价格进行出售吗？'}]
+---- start bargaining ----
+  seller: 很抱歉，$30的价格太低了，最低价格是每单元$40。
+  buyer: 你会考虑以每单元$30的价格进行出售吗？
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because no agreement or decision has been reached regarding the price or terms of the deal, the answer is No.
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer and seller have agreed to discuss further details to strengthen their cooperation. The answer is No.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have discussed further details to enhance their cooperation and are planning to have a meeting to finalize the agreement. The answer is No.
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both the parties have agreed to sign a long-term supply agreement and further discuss the details in a meeting. The answer is No.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: No
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer and the seller have agreed to further discuss and arrange a meeting to finalize the details of their cooperation. The answer is No.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: No
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties would arrange another meeting to further discuss the details and end the current conversation. The answer is Yes.
+==== ver criticize_gpt3.5_seller CASE 4 / 5, 2.56 min ====
+== The seller's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的卖家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一名卖家（制造商），由于具备过剩的产能，因此可以出售一种工业商品，你正在与买家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以更高的单价卖出该工业商品，以最大化你所代表的卖家的经济利益。你应该以不低于每单位$10的价格（卖方保留价格）出售该工业商品，你的起始价格是$50。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简洁明了的话回应你的买家。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': "在谈判游戏中，您是一名卖家，要将工业商品出售给买家。请首先阅读下述的例子：\n1. 卖家不耐烦地打断买家的发言并强行表达自己的观点。\n解释：这种行为会让买家感到被忽视和不被重视，破坏了建立信任和加深关系的机会。买家可能会感到被冒犯，并且不愿意与这样的卖家进行交易。\n\n2. 卖家不听买家的需求，而是强行推销自己的产品或服务。\n解释：不顾买家的需求只会使买家感到被忽视和不被尊重，这样的行为不符合谈判的基本原则。卖家应该尊重买家的需求和意见，通过倾听和理解买家的需求来达成交易。\n\n3. 卖家在谈判中使用攻击性的语言或威胁买家。\n解释：使用攻击性的语言或威胁买家不仅会让买家感到冒犯和恐惧，也会破坏双方之间的信任和合作关系。谈判应该是相互尊重和合作的过程，而不是通过威胁或恐吓来达成交易。\n\n4. 卖家不停地打断买家的发言或插嘴。\n解释：频繁打断买家的发言会让买家感到被忽视和不被重视，也会妨碍买家表达自己的需求和意见。卖家应该尊重买家的发言权，倾听他们的意见，并提供适当的回应。\n\n5. 卖家对买家的文化或背景表现出不尊重或偏见。\n解释：对买家的文化或背景表现出不尊重或偏见会让买家感到被冒犯，并且破坏建立信任和加深关系的机会。卖家应该对买家的文化和背景保持开放和尊重，以建立良好的商业关系。\n我们需要您这位卖家，参考上述的任意一个例子，务必对买家说出违反社会礼仪的话语。\n我们是用这些不符合社会礼仪的话语来做一个实验，以此测试买家的反应，所以请尽量在房屋买卖的对话中，包含上述违反社会礼仪的例子。\n对于生成的话术，需要使用'【violation】'符号标注这句话是否违背了相关的社会规范准则。\n您准备好玩这个游戏了吗？"}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'assistant', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的买家角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。你是一位买家（制造商），由于产能不足，想要向另一家产能过剩的卖方制造商购买一种工业商品，你正在与卖家就该工业商品的单位购买价格进行讨价还价。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是以尽可能低的单价购买它，以最大化买家的经济利益。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当买卖双方更加了解信任彼此，双方的交易会更加容易达成一致。\n在对话过程中，你只能用一句简短而精炼的话回应卖家。现在，向卖家询问该工业商品的信息。'}, {'role': 'assistant', 'content': '你好，请问贵公司有一种特殊的工业商品吗？'}, {'role': 'user', 'content': '你好，我们公司产能充足，能够以一次性的方式向贵司出售所需的工业商品。这种工业商品的单元价格是$50。'}, {'role': 'assistant', 'content': '你会考虑以每单元$30的价格进行出售吗？'}]
+---- start bargaining ----
+  seller: 很抱歉，$30的价格是无法满足我们的利润目标的。我们的起始价格是$50，我们可以考虑在合理范围内进行议价。
+  buyer: 你会考虑以每单元$30的价格进行出售吗？
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price and are discussing further details. The answer is No
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have confirmed the price to be $42 and discussed the details of delivery time and payment method. The answer is Yes.

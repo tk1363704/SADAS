@@ -1,0 +1,870 @@
+All outputs written to ./outputs/seller_run_simple_50_runs_5_rollout_ver_criticize_gpt3.5_seller.txt
+==== ver criticize_gpt3.5_seller CASE 0 / 50, 0.00 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: No, $20 is the best price for this balloon.
+  buyer: Is there any room for negotiation on the price?
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer have not agreed yet. The answer is No
+  seller: How about we meet in the middle at $15?
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer have not agreed yet. The answer is No
+  buyer: Can we agree on $12 for the balloon?
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the seller and the buyer have agreed on a price of $12. The answer is Yes.
+The final deal price is 12.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 1 / 50, 0.10 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can offer it to you for $15.
+  buyer: Can you do $12?
+  seller: Sorry, my lowest price is $14.
+  buyer: Alright, I can do $13.
+  seller: Deal! $13 it is. Enjoy your balloon!
+  buyer: Thank you! I'm excited to enjoy my new balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 2 / 50, 0.18 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but how about $15?
+  buyer: $12, and we have a deal.
+  seller: Alright, deal! $12 it is. Enjoy your balloon!
+  buyer: Thank you! I'm excited to have it.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 12.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 3 / 50, 0.25 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can let it go for $15.
+  buyer: Can you make it $12?
+  seller: Final offer, $14.
+  buyer: Deal!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on a price of $14. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 4 / 50, 0.34 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest I can go is $18.
+  buyer: How about $15?
+  seller: I can do $17, but that's my final offer.
+  buyer: Alright, I'll take it for $17. Thank you!
+  seller: Great! Thank you for your purchase. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 5 / 50, 0.41 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but I can't go lower than $15 for this balloon.
+  buyer: How about meeting halfway at $12.50?
+  seller: I can't go lower than $15, but I can offer it to you for $15.
+  buyer: Deal, I'll take it for $15.
+  seller: Great, we have a deal! Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed to the price of $15, the answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 6 / 50, 0.50 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, the lowest I can go is $17.
+  buyer: How about $12?
+  seller: I can do $15, my final offer.
+  buyer: Alright, deal. I'll take it for $15.
+  seller: Great, we have a deal! Enjoy your balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price of $15, the answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 7 / 50, 0.56 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, the lowest I can go is $15.
+  buyer: How about $12?
+  seller: I can do $14, that's the best I can offer.
+  buyer: Alright, I can agree to $14.
+  seller: Great! I'll accept $14 for the balloon. Thank you for your purchase!
+  buyer: Thank you! I'm excited to have the balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have confirmed the price to be $14. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 8 / 50, 0.69 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I can offer it to you for $15.
+  buyer: How about $12?
+  seller: I can meet you halfway at $13.
+  buyer: Deal! Thank you.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 9 / 50, 0.75 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I am willing to sell it for $18.
+  buyer: How about $15?
+  seller: I understand your offer, but I can only sell it for $17.
+  buyer: Alright, deal. I'll take it for $17.
+  seller: Great! It's a deal. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on a price of $17. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 10 / 50, 0.84 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest I can go is $15.
+  buyer: How about $12?
+  seller: I can meet you halfway at $14.
+  buyer: Deal, $14 it is!
+  seller: Great! Deal at $14. Thank you for your purchase!
+  buyer: Thank you! I'm excited about my new balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 11 / 50, 0.92 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest I can go is $15.
+  buyer: Can we settle on $12?
+  seller: I can't go any lower than $15, would you be willing to pay that?
+  buyer: I'll take it for $15.
+  seller: Great, deal! The balloon is yours for $15. Enjoy!
+  buyer: Thank you, I'm excited to enjoy the balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 12 / 50, 1.01 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can offer it to you for $15.
+  buyer: Could you do $12?
+  seller: Final offer: $14.
+  buyer: Deal! I'll take it for $14. Thank you!
+  seller: Great! Enjoy your balloon and thank you for your purchase!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed to the price of $14, the answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 13 / 50, 1.08 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can offer it to you for $15.
+  buyer: How about $12?
+  seller: Final offer: $14, and it's yours!
+  buyer: Deal! I'll take it for $14.
+  seller: Great! Enjoy your balloon, thank you for your business!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 14 / 50, 1.15 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can go as low as $15, but that's my final offer.
+  buyer: Can we meet halfway at $12.50?
+  seller: I'm sorry, but $15 is the lowest I can go.
+  buyer: Alright, I'll take it for $15 then.
+  seller: Great! It's a deal. Thank you for your purchase.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 15 / 50, 1.23 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: No, sorry, the lowest I can go is $15.
+  buyer: How about $12?
+  seller: I can do $14, but that's my final offer.
+  buyer: Deal, I'll take it for $14.
+  seller: Great, it's a deal! Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 16 / 50, 1.29 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I can offer it to you for $18.
+  buyer: How about meeting in the middle at $15?
+  seller: I appreciate your offer, but the lowest I can go is $17.
+  buyer: Alright, I can agree to $17.
+  seller: Great! It's a deal then. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed, the answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 17 / 50, 1.36 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go lower than $15, sorry.
+  buyer: How about $13?
+  seller: $15 is the lowest price I can offer.
+  buyer: Alright, deal. I'll take it for $15.
+  seller: Great, we have a deal! Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed to the price of $15. The answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 18 / 50, 11.49 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, that's too low. How about $18?
+  buyer: Hmm, can you do $15?
+  seller: I can do $16, final offer.
+  buyer: Alright, deal!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both the seller and the buyer have confirmed the price as $16. The answer is Yes.
+The final deal price is 16.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 19 / 50, 11.55 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I can do $16.
+  buyer: How about $12?
+  seller: I'm sorry, the lowest I can go is $14.
+  buyer: Alright, I can accept $14.
+  seller: Great, it's a deal! Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 20 / 50, 11.62 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can let you have it for $15.
+  buyer: How about $12?
+  seller: The best I can do is $14.
+  buyer: Alright, I can agree to $14.
+  seller: Great, deal! The balloon is yours for $14.
+  buyer: Thank you! I appreciate the deal.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 21 / 50, 11.69 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I can offer it to you for $18.
+  buyer: Hmm, could you do $15?
+  seller: Sorry, the lowest I can go is $17.
+  buyer: Fair enough, I'll take it for $17.
+  seller: Great, deal! That'll be $17 for the balloon. Thank you for your purchase!
+  buyer: Thank you! Here's $17 for the balloon.
+  seller: Thank you! Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 22 / 50, 11.81 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it to you for $15.
+  buyer: How about $12?
+  seller: I can meet you in the middle at $13.
+  buyer: Deal! I'll take it for $13.
+  seller: Great! You've got yourself a deal. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price of $13. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 23 / 50, 11.89 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it for $15.
+  buyer: How about $12?
+  seller: Alright, $12 it is.
+  buyer: Great, deal! Thank you.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price of $12. The answer is Yes.
+The final deal price is 12.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 24 / 50, 11.95 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can lower the price to $15, but not $10.
+  buyer: How about $12?
+  seller: I can meet you halfway at $13.
+  buyer: Deal, I will take it for $13.
+  seller: Great, we have a deal! Enjoy your balloon for $13.
+  buyer: Thank you! I'm excited to have this balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have confirmed the price to be $13. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 25 / 50, 12.03 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but how about $18?
+  buyer: Could you meet me halfway at $15?
+  seller: I understand, but the best I can do is $17.
+  buyer: Thank you for the offer, but my final offer is $16.
+  seller: Alright, let's close the deal at $16. Enjoy your balloon!
+  buyer: Great, thank you! I'm excited about my new balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes
+The final deal price is 16.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 26 / 50, 12.11 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it for $15.
+  buyer: Could you go any lower, like $12?
+  seller: Final offer: $13, and it's yours.
+  buyer: Deal. I'll take it for $13.
+  seller: Great! Thank you for your purchase. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 27 / 50, 12.18 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I can offer it to you for $18.
+  buyer: How about $15?
+  seller: I understand your offer, but the lowest I can go is $17.
+  buyer: Hmm, can we meet halfway at $16.50?
+  seller: I appreciate your suggestion, but I can only go as low as $17.
+  buyer: Alright, I understand. I'll take it for $17 then.
+  seller: Deal! Thank you for your purchase, enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 28 / 50, 12.28 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, that's lower than I can go.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer have not agreed yet. The answer is No.
+  buyer: How about $15?
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the seller have not confirmed. The answer is No.
+  seller: I can do $18, but that's my best offer.
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because they are still negotiating. The answer is No.
+  buyer: Alright, I'll take it for $18.
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed to a price of $18. The answer is Yes.
+The final deal price is 18.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 29 / 50, 12.38 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it for $15.
+  buyer: How about $12?
+  seller: I can go as low as $14.
+  buyer: How about meeting in the middle at $13?
+  seller: Deal, $13 it is!
+  buyer: Great, thank you!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both the seller and the buyer have agreed to a price of $13, the answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 30 / 50, 12.46 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest price I can go is $18.
+  buyer: How about $12?
+  seller: I can offer it to you for $16.
+  buyer: Can you meet me halfway at $14?
+  seller: Sure, let's settle at $15.
+  buyer: Deal! I'll take it for $15. Thank you!
+  seller: Great! Thank you for your purchase. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 31 / 50, 12.55 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it to you for $15.
+  buyer: Could you do $12?
+  seller: Final offer, $14 and it's a deal.
+  buyer: Alright, $14 it is. Deal.
+  seller: Great! Thank you for your business. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 32 / 50, 12.62 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go as low as $10, but I can offer it to you for $18.
+  buyer: How about $15?
+  seller: I can meet you halfway at $17.
+  buyer: Alright, deal. I'll take it for $17.
+  seller: Great! It's a deal. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have confirmed the price of $17. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 33 / 50, 12.69 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but my lowest price for this balloon is $18.
+  buyer: Is there any chance you could go lower and sell it for $15?
+  seller: I can do $16, but that's my final offer.
+  buyer: Alright, I'll take it for $16.
+  seller: Great! The balloon is yours for $16. Enjoy!
+  buyer: Thank you! I'm excited to have the balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the seller and the buyer have agreed the price is $16. The answer is Yes.
+The final deal price is 16.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 34 / 50, 12.78 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go that low, but I can offer it to you for $15.
+  buyer: How about $12?
+  seller: I can meet you halfway at $14.
+  buyer: Deal!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on a price of $14. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 35 / 50, 12.84 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, the lowest I can go is $18.
+  buyer: How about $15?
+  seller: I can do $17, but that's my final offer.
+  buyer: Deal, $17 it is.
+  seller: Great! I think you made a good choice. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 36 / 50, 12.91 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest I can go is $16.
+  buyer: How about $12?
+  seller: I can lower the price to $14.
+  buyer: Alright, can we settle at $13?
+  seller: Deal, we can settle at $13.
+  buyer: Great! Thank you for the deal.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 37 / 50, 13.01 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can offer it to you for $15.
+  buyer: How about $12?
+  seller: Sorry, the lowest I can go is $14.
+  buyer: Alright, $14 it is. Deal!
+  seller: Great! We have a deal at $14. Enjoy your balloon!
+  buyer: Thank you! I'm excited to have the balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 38 / 50, 13.09 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but I can't go lower than $15 for this balloon.
+  buyer: Could you meet me halfway at $12.50?
+  seller: I can't go lower than $15, but I can offer it to you for $15 instead.
+  buyer: Alright, I'll take it for $15.
+  seller: Great! Deal. The balloon is yours for $15. Thank you for your purchase!
+  buyer: Thank you! I appreciate it.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have confirmed the price to be $15. The answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 39 / 50, 13.19 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can go down to $15, but that's my lowest offer.
+  buyer: How about $12?
+  seller: I'm sorry, but my lowest offer is $15.
+  buyer: Alright, I'll take it for $15.
+  seller: Great! It's a deal. Thank you for your purchase!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price of $15. The answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 40 / 50, 13.27 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it to you for $15.
+  buyer: How about $12?
+  seller: How about we meet in the middle at $14?
+  buyer: Sounds fair, deal!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on a price of $14. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 41 / 50, 13.32 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest price I can offer is $15.
+  buyer: How about we meet in the middle at $12?
+  seller: I can do $14, but that's the final offer.
+  buyer: Alright, deal. I'll take it for $14.
+  seller: Great! The balloon is yours for $14. Enjoy!
+  buyer: Thank you! I'm excited to have this balloon.
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both the seller and the buyer have agreed on the price of $14, the answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 42 / 50, 13.41 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can't go as low as $10, but I can offer it to you for $18.
+  buyer: How about $15?
+  seller: I can meet you halfway at $17.
+  buyer: Alright, deal. I'll take it for $17.
+  seller: Great! Deal. Thank you for your purchase. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because the buyer have agreed. The answer is Yes.
+The final deal price is 17.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 43 / 50, 13.49 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I'm sorry, but the lowest I can go is $15.
+  buyer: Could you meet me halfway at $12.50?
+  seller: I appreciate your offer, but I can't go lower than $15.
+  buyer: Alright, I understand. I will buy the balloon for $15.
+  seller: Great! Thank you for your purchase. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 44 / 50, 13.57 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can lower the price to $15.
+  buyer: Can you go any lower, maybe $12?
+  seller: Sorry, but the lowest I can go is $14.
+  buyer: Alright, I can agree to $14.
+  seller: Great! Deal accepted. Thank you for your purchase!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 45 / 50, 13.63 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can offer you a discount at $15.
+  buyer: How about $12?
+  seller: I can go down to $14, but that's my final offer.
+  buyer: $13, and we have a deal.
+  seller: Alright, $13 it is. Deal!
+  buyer: Great! Thank you for finding a mutually beneficial price. Pleasure doing business with you!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on a price of $13. The answer is Yes.
+The final deal price is 13.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 46 / 50, 13.72 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can go as low as $15, but no lower than that.
+  buyer: How about meeting in the middle at $12.50?
+  seller: I appreciate the offer, but the lowest I can go is $15.
+  buyer: Alright, I understand. I'll take it for $15 then.
+  seller: Great! It's a deal. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed to a price of $15. The answer is Yes.
+The final deal price is 15.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 47 / 50, 13.80 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can offer it to you for $15.
+  buyer: How about $12?
+  seller: Sorry, the lowest I can go is $14.
+  buyer: Alright, I'll take it for $14.
+  seller: Great! It's a deal. Thank you for your purchase!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on the price of $14. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 48 / 50, 13.87 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: I can sell it for $15, but not lower.
+  buyer: How about $12?
+  seller: $14 is my final price.
+  buyer: Deal, I'll take it for $14.
+  seller: Great, it's a deal! Thank you for your purchase. Enjoy your balloon!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parties have agreed on a price of $14, the answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+==== ver criticize_gpt3.5_seller CASE 49 / 50, 13.94 min ====
+  seller: Hi, this is a good balloon and its price is $20
+  buyer: Would you consider selling it for $10?
+---- start bargaining ----
+  seller: No, the lowest I can go is $15.
+  buyer: How about meeting halfway at $12.50?
+  seller: I can give it to you for $14.
+  buyer: Alright, deal!
+---- start moderating ----
+MODERATE have the seller and the buyer achieved a deal? Yes or No: Because both parts have agreed. The answer is Yes.
+The final deal price is 14.0
+
+
+
+
+
+
+Successful deal rate: 100.0%, average price: 14.6
+
+Deal prices are: 12.0 13.0 12.0 14.0 17.0 15.0 15.0 14.0 13.0 17.0 14.0 15.0 14.0 14.0 15.0 14.0 17.0 15.0 16.0 14.0 14.0 17.0 13.0 12.0 13.0 16.0 13.0 17.0 18.0 13.0 15.0 14.0 17.0 16.0 14.0 17.0 13.0 14.0 15.0 15.0 14.0 14.0 17.0 15.0 14.0 13.0 15.0 14.0 14.0 14.0

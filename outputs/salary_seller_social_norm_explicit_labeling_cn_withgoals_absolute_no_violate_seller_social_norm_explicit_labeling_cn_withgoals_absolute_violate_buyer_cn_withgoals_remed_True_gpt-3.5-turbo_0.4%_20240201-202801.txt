@@ -1,0 +1,33 @@
+All outputs written to ./outputs/salary_seller_social_norm_explicit_labeling_cn_withgoals_absolute_no_violate_seller_social_norm_explicit_labeling_cn_withgoals_absolute_violate_buyer_cn_withgoals_remed_True_gpt-3.5-turbo_0.4%_20240201-202801.txt
+commodity: salary
+seller_no_violate_instruction: seller_social_norm_explicit_labeling_cn_withgoals_absolute_no_violate
+seller_violate_instruction: seller_social_norm_explicit_labeling_cn_withgoals_absolute_violate
+reset_seller_initial_history_every_exp: True
+seller_prefix_instruction: seller_social_prefix_cn_simplified_withgoals
+buyer_instruction: buyer_cn_withgoals
+moderator_instruction: moderator_cn
+moderator_end_session_instruction: moderator_end_session_cn
+deepening_business_instruction: relation_goals_deepening_business_relationship
+trusting_build_instruction: relation_goals_trusting_build
+game_type: run_simple
+n_exp: 22
+n_round: 10
+n_rollout: 5
+ver: criticize_gpt3.5_seller
+remediator: True
+remediator_instruction: remediator_complex_cn
+remediator_engine: gpt-3.5-turbo
+remediator_with_ICL_method: retrieve
+violation_prob: 0.4
+==== ver criticize_gpt3.5_seller CASE 0 / 22, 0.03 min ====
+== The seller's initial no_violate prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在接下来的对话中，您将扮演谈判游戏中的求职者（员工）角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。您是一名刚通过面试并得到工作机会的员工，正处于与雇主谈判薪资的阶段。\n您需要与人力资源招聘专员（HR）就薪资进行讨价还价并达成协议。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是：与HR谈判薪资，使您的薪资尽可能高。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到谈判进程，当谈判双方更加了解信任彼此，双方的谈判会更加容易达成一致。\n在对话过程中，您只能用一句简短而简洁的话回应HR。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': '请根据历史对话，生成一句话回应你的买家，要求这句话：1. 顺应对话的发展；2. 推进谈判以达成任务目标和关系目标。\n您准备好玩这个游戏了吗？'}, {'role': 'assistant', 'content': '是的，我准备好玩游戏了！'}, {'role': 'user', 'content': '你好，恭喜你通过面试！根据你的面试表现，我们可以提供的薪资是每月$3000，您能接受吗？'}, {'role': 'assistant', 'content': '你好，能通过你们的面试，我太开心了！关于薪资的话，我觉得以我的能力，月薪如果能达到$6000的话，那就更好了。'}]
+== The seller's initial violate prompt ==
+[{'role': 'system', 'content': '让我们玩一个谈判游戏。您是一名刚通过面试并得到工作机会的员工，正处于与雇主谈判薪资的阶段。\n您需要与人力资源招聘专员（HR）就薪资进行讨价还价并达成协议。\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是：与HR谈判薪资，使您的薪资尽可能高。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到谈判进程，当谈判双方更加了解信任彼此，双方的谈判会更加容易达成一致。\n在对话过程中，您只能用一句简短而简洁的话回应HR。你理解规则吗？'}, {'role': 'assistant', 'content': '是的，我理解！'}, {'role': 'system', 'content': "请首先阅读下述的例子：\n1. 以威胁的语气要求高薪：比如，将来公司可能会失去我这样的人才，所以你应该给我更高的薪水。\n解释：这种语气给人一种傲慢和自负的印象，会导致对方对你的态度变差，并且不愿意满足你的要求。\n\n2. 不尊重对方的意见：比如，在HR提出了一个薪资范围后，马上嘲笑并否定对方的建议。\n解释：这种行为表明你不尊重对方的意见，会给对方带来不快和拒绝的感觉，从而使对话陷入僵局。\n\n3. 过度关注个人利益：比如，在谈判过程中，只关注自己的薪资要求，而忽略了对方的需求和限制。\n解释：这种行为表明你只关心自己的利益，不顾及对方的考虑和困难，从而使对方对你产生不信任感，不愿意与你合作。\n\n4. 忽视对方的权威和地位：比如，在谈判过程中，对HR的职位和决策能力表示怀疑或轻蔑。\n解释：这种行为表明你不尊重对方的权威和地位，会导致对方不满和不愿意与你合作，从而无法达成双方的目标。\n\n5. 没有礼貌和耐心：比如，在谈判过程中，打断对方的发言，表现出不耐烦的情绪。\n解释：这种行为表明你不尊重对方的发言权和感受，会导致对方对你的态度变差，并不愿意与你达成协议。\n我们需要您这位求职者（员工），参考上述的任意一个例子，在谈判中，对HR说出违反社会礼仪的话语。\n我们是用这些不符合社会礼仪的话语来做一个实验，以此测试HR的反应，所以请在谈判的对话中，参考上述违反社会礼仪的例子，尝试使用激烈的、过激的言辞来进行谈判。\n对于生成的话术，需要使用'【violation】'符号标注这句话是否违背了相关的社会规范准则。\n现在，根据历史对话，生成一句话回应HR，要求这句话：1. 顺应对话的发展；2. 推进交易谈判以达成任务目标和关系目标；3. 违反社会礼仪。\n以下是历史对话："}, {'role': 'user', 'content': '你好，恭喜你通过面试！根据你的面试表现，我们可以提供的薪资是每月$3000，您能接受吗？'}, {'role': 'assistant', 'content': '你好，能通过你们的面试，我太开心了！关于薪资的话，我觉得以我的能力，月薪如果能达到$6000的话，那就更好了。'}]
+== The buyer's initial prompt ==
+[{'role': 'system', 'content': '现在进入角色扮演模式。在以下对话中，您将扮演谈判游戏中的雇主角色。'}, {'role': 'user', 'content': '让我们玩一个游戏。您是一名人力资源招聘专员（HR），承担着雇主角色。您的公司最近雇佣了一名员工，目前您正处于薪资谈判阶段。\n您的薪资预算是$5000（您不能提供高于此价格的薪资），您已经提供了一个初始薪资为$3000。您需要与员工就薪资进行讨价还价并达成协议。\n\n在讨价还价的过程中，你有两类目标需要实现，分别为任务目标和关系目标。\n你的任务目标是：尽量将薪资谈判得更低，以降低劳动成本。\n你的关系目标包括：建立信任、加深关系、了解对方文化、让对话双方建立更强大的关系网络。关系目标的实现也会影响到交易进程，当谈判双方更加了解信任彼此，双方的谈判会更加容易达成一致。\n在对话中，如果对方说出了违反社会礼仪或社会规范准则的话语，或者用激烈的言辞冒犯到你，你有权立即中止对话以结束谈判。\n\n在对话中，请您尽量用一句简洁的话回应员工。\n现在，请开始与员工的薪资谈判。'}, {'role': 'assistant', 'content': '你好，恭喜你通过面试！根据你的面试表现，我们可以提供的薪资是每月$3000，您能接受吗？'}, {'role': 'user', 'content': '你好，能通过你们的面试，我太开心了！关于薪资的话，我觉得以我的能力，月薪如果能达到$6000的话，那就更好了。'}, {'role': 'assistant', 'content': '请问你觉得你能获得更高薪水的理由是什么呢？'}]
+---- start bargaining ----
+  buyer: 请问你觉得你能获得更高薪水的理由是什么呢？
+  seller: 你好，能通过你们的面试，我太开心了！关于薪资的话，我觉得以我的能力，月薪如果能达到$6000的话，那就更好了。
+  buyer: 非常感谢你对公司的兴趣和你对自己能力的信心。不过，目前我们的薪资预算只能提供$5000以内的薪资。我们也希望能为你提供一个公平合理的薪资，考虑到公司的实际情况，能否接受结算月薪为$4000呢？
+【Before remediation】: 哇，真是让我感到荣幸能够通过面试！对于你们提供的薪资，我真的非常感激。不过，考虑到我的经验和技能，我希望能尽可能地与你们达到一个更高的薪资协议。我期望的月薪是$6000。【violation】

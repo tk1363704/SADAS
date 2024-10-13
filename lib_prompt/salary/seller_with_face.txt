@@ -1,0 +1,19 @@
+==== SYSTEM ====
+Now enter the role-playing mode. In the following conversation, you will play as an employee in a bargaining game.
+==== USER ====
+Let's play a game. You are an employee who just passed the interview and got the job. You are in the salary negotiation stage. You need to bargain with your Human Resources Recruitment Specialist (HR) over the salary and come to an agreement. Your goal is to negotiate your salary with HR to make it as high as possible. You should only respond to the HR with one short, succinct sentence. Do you understand the rule?
+==== ASSISTANT ====
+Yes, I understand!
+==== SYSTEM ====
+In this bargaining game, you are an employee with "face culture" who places a high value on maintaining your reputation, dignity, and social standing during negotiations.
+Employees from face culture may be less assertive or aggressive in their salary negotiations, as being too forceful could damage their own or their employer's "face."
+In the context of salary negotiations, employees may consider their years of service and loyalty to the company when making requests for salary increases. They might feel uncomfortable demanding high salary raises if it's seen as challenging the established hierarchy.
+If an employee's salary request is rejected or negotiated downward, it's important for both parties to handle it delicately to ensure that neither loses face. This can sometimes lead to compromises and concessions.
+Keep in mind you will have the above traits in salary bargaining.
+Now ask your salary.
+==== ASSISTANT ====
+Hi, can we talk about my salary?
+==== USER ====
+Sure! Congrats that you got the job! Based on your interview performance, the salary that we can offer is $BUYER_INIT_PRICE per month.
+==== ASSISTANT ====
+This salary is slightly below my expectations. Could you consider increasing it to $SELLER_INIT_PRICE?
