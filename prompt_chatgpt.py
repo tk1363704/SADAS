@@ -178,7 +178,7 @@ in_context_topk = 8
 #     # print(prompt)
 #
 #
-#     keys = ['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']
+#     keys = ['sk-AAAAA']
 #
 #     completion = openai.ChatCompletion.create(
 #       model="gpt-3.5-turbo",
@@ -262,10 +262,12 @@ def chatgpt_remediation_generation_with_norm(dialogue, norm_category, prompt=Non
 
     chatgpt_query_time = time.time()
     #print(prompt)
-    # todo: add keys
-    keys = [
-            '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',
-            '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']
+
+    # # todo: add keys
+    # # for instance:
+    # keys = [
+    #         'sk-aaa',
+    #         'sk-bbb']
     # todo: add retry
     try:
         completion = retry_call(openai.ChatCompletion.create, fkwargs={"model":"gpt-3.5-turbo",
